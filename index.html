@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS y Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- CSS propio-->
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Mi página web con Bootstrap</title>
+</head>
+<body>
+    <main class="container" id="contenedor">
+        <header id="cabecera" class="row">
+            <div id="marca" class="col-lg-4 col-sm-6">
+              <h1 class="display-2">Fotografía</h1>
+            </div>
+            <div id="botonera" class="col-lg-8 col-sm-6">
+                <!--inicio NavBar-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#seccionUno">Sobre mí</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#seccionDos">Galería</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#seccionTres">Contacto</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                <!--fin NavBar-->
+                </div>
+        </header>
+        <section id="seccionUno" class="row">
+            <div class="col" id="columna1">
+                <h2>¡Hola!</h2>
+                <h3>Bienvenidos a mi sitio web</h3>
+                <p> Mi nombre es Gisela, soy una desarrolladora web que vive en Córdoba, Argentina. En este nuevo proyecto traté de combinar mis dos pasiones: el desarrollo web y la fotografía. 
+                ¡Espero que lo disfrutes! ✨</p>
+            </div>
+            <div class="col" id="columna2">
+              <!--inicio carousel-->
+                <h2>En lo más alto de la montaña</h2>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="imagenes/yo.JPG" class="d-block w-100" alt="yo">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="imagenes/cumbrecita.JPG" class="d-block w-100" alt="Cumbrecita">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="imagenes/cumbrecita2.JPG" class="d-block w-100" alt="Piedras">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              <!--fin carousel-->
+              <p>Fotos de mi último viaje a La Cumbrecita, Córdoba- Argentina</p>
+            </div>
+            <div class="col" id="columna3">
+                <h2>En búsqueda de nuevas aventuras</h2>
+                <p>Actualmente empecé a realizar viajes con un grupo de amigos a diferentes puntos de las sierras de Córdoba, donde practicamos senderismo y trekking.</p>
+                <p>Córdoba está llena de paisajes impactantes y aprovecho para llenar de fotos la memoria de mi cámara 📷</p>
+            </div>
+        </section>
+        <section id="seccionDos"class="row" >
+            <div class="col" id="gal1">
+                <!--inicio de Card-->
+                <div class="card mb-3">
+                    <img src="imagenes/puente.jpg" class="card-img-top img-fluid" alt="puente" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title">Una mirada a todo color desde el puente</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Una carrera de globos aerostáticos</h5>
+                    </div>
+                    <img src="imagenes/globos.jpg" class="card-img-bottom img-fluid" alt="globos" width="100%">
+                  </div>
+                <!--fin de Card-->
+            </div>
+            <div class="col" id="gal2">
+                 <!--inicio de Card-->
+                 <div class="card mb-3">
+                    <img src="imagenes/mar.jpg" class="card-img-top img-fluid" alt="mar" width="100%">
+                    <div class="card-body">
+                      <h5 class="card-title">Atardecer en el agua</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Desde la montaña</h5>
+                    </div>
+                    <img src="imagenes/montaña.jpg" class="card-img-bottom img-fluid" alt="montaña" width="100%">
+                  </div>
+                <!--fin de Card-->
+            </div>
+        </section>
+        <section id="seccionTres" class="row">
+          <!--inicio del formulario-->
+            <div class="col-md-12" id="contacto">
+                <h2>Completa el formulario si deseas ponerte en contacto conmigo</h2>
+                <form class="row g-3 needs-validation" novalidate>
+                  <div class="col-md-4">
+                    <label for="validationCustom01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" required>
+                    <div class="valid-feedback">
+                      Esta bien!
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="validationCustom02" required>
+                    <div class="valid-feedback">
+                      Esta bien!
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <label for="validationCustomUsername" class="form-label">Usuario de Twitter o de Instagram</label>
+                    <div class="input-group has-validation">
+                      <span class="input-group-text" id="inputGroupPrepend">@</span>
+                      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                      <div class="invalid-feedback">
+                        Por favor, escribe tu usuario.
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                      <label class="form-check-label" for="invalidCheck">
+                        Acepta los términos y condiciones.
+                      </label>
+                      <div class="invalid-feedback">
+                        Debes estar de acuerdo para continuar.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                  </div>
+                </form>
+                <!--fin del formulario-->
+        </section>
+        <footer id="pie" class="row">
+            <div>
+                <h6>Realizado por Gisela Gariboldi - Desarrolladora Web - 2021</h6>
+            </div>
+        </footer>
+    </main>
+    <!-- JS Y Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+    </script>
+  </body>
+</html>

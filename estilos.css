@@ -1,0 +1,73 @@
+#contenedor {
+    background-color: bisque;
+    height: 2100px;
+}
+
+#cabecera {
+    background-color: #e96bf2;
+    height: 200px;
+}
+
+#marca, h1 {
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+}
+
+#botonera {
+    background-color: bisque;
+}
+
+#seccionUno {
+    background-color: blueviolet;
+    height: 700px;
+}
+#seccionUno, h2, h3 {
+    text-align: center;
+}
+.seccionUno, h2, h3, p {
+    padding: 10px;
+}
+#columna1 {
+    background-color: #ecb9f0;
+    background-image: url(imagenes/cabecera.jpg);  
+}
+
+#columna2 {
+    background-color: #8b5a8f;
+}
+#columna3 {
+    background-color: #ecb4f1;
+    background-image: url(imagenes/cielo.jpg);
+}
+
+#seccionDos {
+    background-color: #f5abdc;
+    height: 900px;
+}
+#gal1 {
+    background-color: #edb695;
+    padding: 30px;
+}
+#gal2 {
+    background-color: #edb695;
+    padding: 30px;
+}
+
+#seccionTres {
+    background-color: #dda9b9;
+    height: 450px;
+    padding: 10px;
+}
+.contacto, h2 {
+    padding: 20px;
+}
+#pie {
+    background-color: #f584cc;
+    height: 150px;
+}
+#pie, h6 {
+    padding: 30px;
+    text-align: center;
+
+}
